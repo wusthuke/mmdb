@@ -1,4 +1,4 @@
-package org.huke.db.mmdb.redis;
+package org.huke.db.mmdb.redis.simple;
 
 import redis.clients.jedis.Jedis;
 
