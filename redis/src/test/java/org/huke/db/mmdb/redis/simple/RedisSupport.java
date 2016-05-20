@@ -15,7 +15,7 @@ public class RedisSupport {
         if (this.jedis == null) {
             synchronized (this) {
                 if (this.jedis == null) {
-                    this.initiateJedis("localhost", 6379);
+                    this.getJedis("localhost", 6379);
                 }
             }
         }
